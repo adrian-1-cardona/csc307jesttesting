@@ -1,0 +1,26 @@
+{
+  "name": "csc307jesttesting",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/adrian-1-cardona/csc307jesttesting#readme",
+  "bugs": {
+    "url": "https://github.com/adrian-1-cardona/csc307jesttesting/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrian-1-cardona/csc307jesttesting.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "module.js",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "dependencies": {
+    "jest": "^30.3.0"
+  }
+}

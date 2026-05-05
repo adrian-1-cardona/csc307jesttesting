@@ -45,14 +45,13 @@ test('Testing containsNumbers -- string without numbers', () => {
 });
 
 //oh the bug catch thing, here are the two test cases for that: 
-// ADD THESE TWO TESTS BELOW TO CATCH THE BUG:
 
-// BUG CATCH: Test string with only spaces (reveals the bug!)
+//bug: Test string with only spaces (reveals the bug!)
 test('Testing containsNumbers -- string with only spaces', () => {
   expect(mut.containsNumbers('   ')).toBe(false);
 });
 
-// BUG CATCH: Test string with spaces and letters (reveals the bug!)
+//bug: Test string with spaces and letters (reveals the bug!)
 test('Testing containsNumbers -- string with spaces and letters', () => {
   expect(mut.containsNumbers('hello world')).toBe(false);
 });

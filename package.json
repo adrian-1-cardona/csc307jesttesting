@@ -20,7 +20,8 @@
   "jest": {
     "transform": {}
   },
-  "dependencies": {
+  "devDependencies": {
+    "cross-env": "^10.1.0",
     "jest": "^30.3.0"
   }
 }
